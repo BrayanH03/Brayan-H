@@ -1,0 +1,32 @@
+CODIGO
+
+void setup(){
+ size(500,500); 
+ background(#030303);
+}
+void draw(){
+fill(#867E7E);
+quad(180,100,320,100,320,200,180,200);//contorno pantalla
+fill(#FFFFFF);
+quad(195,110,305,110,305,185,195,185);//pantalla
+fill(#867E7E);
+rect(230,230,130,05);//cable
+
+fill(#867E7E);
+rect(250,200,05,90);//cable
+
+
+fill(#867E7E);
+rect(225,200,50,50);//cuello de la computadora
+fill(#867E7E);
+rect(100,100,70,150);//cpu
+fill(#867E7E);
+rect(150,280,170,50);//teclado
+
+fill(#867E7E);
+rect(357,230,05,70);//cable
+
+fill(#867E7E);
+triangle(360,280,345,327,375,327);//el mause
+
+}
